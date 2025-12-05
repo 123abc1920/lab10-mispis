@@ -24,4 +24,4 @@
 ![Выполнение](/classes/Снимок%20экрана%202025-12-05%20144808.png)
 
 ## Код
-[Код](https://skillbox.ru/media/ "Код")
+[Код](https://github.com/123abc1920/lab10-mispis/tree/main/classes/javap "Код")
