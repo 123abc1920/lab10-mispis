@@ -10,6 +10,8 @@ public class Employee {
         this.socialSecurityNumber = socialNumber;
         this.name = name;
         this.email = email;
+
+        System.out.println("Добавлен работник "+this.name.toString()+" с почтой "+this.email);
     }
 
 }

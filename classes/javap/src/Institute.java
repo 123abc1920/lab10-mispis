@@ -10,6 +10,8 @@ public class Institute {
     public Institute(String name, String address) {
         this.name = name;
         this.address = address;
+
+        System.out.println("Создана кафедра "+this.name.toString()+" по адресу "+this.address);
     }
 
     public void setEmploees(Employee... empl) {

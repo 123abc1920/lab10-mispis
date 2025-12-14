@@ -16,6 +16,8 @@ public class Faculty {
     public Faculty(String name, String address) {
         this.name = name;
         this.address = address;
+
+        System.out.println("Создан факультет " + this.name.toString() + " по адресу " + this.address);
     }
 
     public void setInstitute(Institute... institute) {
@@ -28,6 +30,13 @@ public class Faculty {
         }
 
         this.numberOfEmployers = count;
+
+        System.out.println("На факультет " + this.name + " добавлены кафедры:");
+
+        for (Institute i : this.instituteList) {
+            System.out.print(i.name.toString() + " ");
+        }
+        System.out.println();
     }
 
 }

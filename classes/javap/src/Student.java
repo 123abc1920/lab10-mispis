@@ -18,7 +18,7 @@ public class Student {
     }
 
     public void takePartInCourse(Course course) {
-
+        System.out.println("Студент " + this.name + " добавлен на курс " + course.name);
         this.courses.add(course);
     }
 

@@ -21,7 +21,7 @@
 ![Classes](/reversed%20diagrams/src.jpg)
 
 ## Выполнение
-![Выполнение](/classes/Снимок%20экрана%202025-12-05%20144808.png)
+![Выполнение](/classes/screen.png)
 
 ## Код
 [Код](https://github.com/123abc1920/lab10-mispis/tree/main/classes/javap "Код")

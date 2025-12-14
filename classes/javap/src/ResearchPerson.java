@@ -11,7 +11,9 @@ public class ResearchPerson extends Employee {
     }
 
     public void createCourse(String name, int weeklyDuration, ResearchPerson lecturer) {
-        faculty.courses.add(new Course(name, weeklyDuration, lecturer));
+        Course c = new Course(name, weeklyDuration, lecturer);
+        System.out.println("Преподаватель " + this.name + " создает курс " + c.name);
+        faculty.courses.add(c);
     }
 
     public void createProject(int hours, String name, Date startingDate, Date endDate) {
